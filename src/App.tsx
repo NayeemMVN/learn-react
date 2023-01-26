@@ -12,8 +12,10 @@ const App: React.FC = () => {
         setTodos([...todos, {id: Date.now(), todo: todo, isDone: false}])
         setTodo("")
     }
-    console.log(todo)
-    console.log(todos)
+
+    // const h1 = (arg) => {
+    //
+    // }
     return (
         <div className="App">
             <span className="heading">Taskify</span>
